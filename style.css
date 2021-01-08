@@ -1,0 +1,55 @@
+body {
+  background-color: #7EAB54;
+  font-family: "Monotype Corsiva"
+}
+
+p {
+  font-family: "Verdana";
+  font-size: 18px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+a {
+  color: #D56512;
+  font-family: "Verdana";
+  text-decoration:underline;
+  background-color: none;
+  display: inline;
+}
+
+img {
+  margin-left:3px;
+  margin-right:3px;
+}
+
+a:hover {
+  text-decoration:none;
+  color: green;
+}
+
+h2 {
+  text-align: right;
+  font-family: "Monotype Corsiva";
+  font-size: 47px;
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+.gallery img {
+  transition: 1s;
+  padding: 8px;
+  width:250px;
+}
+
+.gallery img:hover {
+  filter:grayscale(52%);
+  transform: scale(1.1);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
